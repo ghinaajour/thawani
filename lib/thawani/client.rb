@@ -4,7 +4,7 @@ module Thawani
   class Client
     include HTTParty
 
-    base_uri 'https://uatcheckout.thawani.om'
+    base_uri 'https://checkout.thawani.om'
     headers 'Content-Type' => 'application/json'
 
     def initialize(api_key)
